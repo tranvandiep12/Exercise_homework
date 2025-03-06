@@ -19,3 +19,6 @@ public class Number {
         System.out.println("Số nút của biển số xe là: " + buttonNumber);
     }
 }
+/**
+ * Tính điểm số xe
+ */
