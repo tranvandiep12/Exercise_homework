@@ -2,6 +2,10 @@ package ss4_condision_exercise;
 
 import java.util.Scanner;
 
+/**
+ * Tính lương thâm niên
+ * final: hằng số , quy tăc khai báo biến  basic_Salary
+ */
 public class EmployeeSalary {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -9,7 +13,7 @@ public class EmployeeSalary {
         System.out.print(" Nhập thâm niên công tác: ");
         int tnct = scanner.nextInt();
 
-        double basicSalary = 650000;
+        final double basicSalary = 650000;
 
         double salaryCoefficient;
         if(tnct < 12){

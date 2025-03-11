@@ -14,15 +14,15 @@ public class Ptbac1 {
 
         double x;
 
-        if(a == 0){
-            if(b == 0){
+        if (a == 0) {
+            if (b == 0) {
                 System.out.println(" Phương trình có vô số nghiệm ");
             } else {
                 System.out.println(" Phương trình vô nghiệm ");
             }
         } else {
-            x = -b/a;
-            System.out.println("Phương trình có nghiệm: "+x);
+            x = -b / a;
+            System.out.println("Phương trình có nghiệm: " + x);
         }
     }
 }
