@@ -13,8 +13,9 @@ public class toLowerCase {
         System.out.println(toLowerCase(ch));
 
     }
-    public static char toLowerCase(char c){
-        if(c >= 'A' && c <= 'Z'){
+
+    public static char toLowerCase(char c) {
+        if (c >= 'A' && c <= 'Z') {
             c += 32;
         }
         return c;
