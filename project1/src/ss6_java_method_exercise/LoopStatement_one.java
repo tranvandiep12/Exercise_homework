@@ -1,7 +1,10 @@
 package ss6_java_method_exercise;
 
 import java.util.Scanner;
-// Câu lêch lặp
+
+/**
+ * Câu lêch lặp
+ */
 public class LoopStatement_one {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
